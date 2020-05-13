@@ -10,13 +10,13 @@ int dailyEmpWage =0;
 int monthlyWage = 0;
 	public int dailyFullWage()
 	{
-	dailyEmpWage =(FULLTIMEHOURS*WAGEPERHOUR);
-	return dailyEmpWage;
+		dailyEmpWage =(FULLTIMEHOURS*WAGEPERHOUR);
+		return dailyEmpWage;
 	}
 	public int dailyPartWage()
 	{
-	dailyEmpWage =(PARTTIMEHOURS*WAGEPERHOUR);
-	return dailyEmpWage;
+		dailyEmpWage =(PARTTIMEHOURS*WAGEPERHOUR);
+		return dailyEmpWage;
 	}
 	public void setMonthlyWage(int monthlyWage)
 	{
@@ -24,6 +24,6 @@ int monthlyWage = 0;
 	}
 	public int getMonthlyWage()
 	{
-	return this.monthlyWage;
+		return this.monthlyWage;
 	}
 }
